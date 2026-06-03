@@ -1,0 +1,112 @@
+layout: {qmk_keyboard: ferris/sweep, layout_name: LAYOUT_split_3x5_2}
+layers:
+  ALPHA:
+  - [Q, W, E, R, T, Y, U, I, O, P]
+  - - {t: A, h: LSFT}
+    - {t: S, h: LCTL}
+    - {t: D, h: LALT}
+    - {t: F, h: LGUI}
+    - G
+    - H
+    - {t: J, h: RGUI}
+    - {t: K, h: RALT}
+    - {t: L, h: RCTL}
+    - {t: ;, h: RSFT}
+  - [Z, X, C, V, B, N, M, ',', ., /]
+  - [SPC, NUM, NAV, ENT]
+  NUMPAD:
+  - - ESC
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - BSPC
+    - PAST
+    - P7
+    - P8
+    - P9
+    - PMNS
+  - - {type: trans}
+    - {type: trans}
+    - App Back
+    - App Fwd
+    - ENT
+    - PSLS
+    - P4
+    - P5
+    - P6
+    - PPLS
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - P0
+    - P1
+    - P2
+    - P3
+    - PDOT
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  NAVIGATION:
+  - - ESC
+    - (
+    - )
+    - _
+    - \
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - ['~', '{', '}', '-', '''', LEFT, DOWN, UP, RGHT, C-A-Sft]
+  - - '|'
+    - '['
+    - ']'
+    - '='
+    - TAB
+    - PGDN
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - BSPC
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  SHIFT_NUMPAD:
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - '&'
+    - '*'
+    - (
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - $
+    - '%'
+    - ^
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - )
+    - '!'
+    - '@'
+    - '#'
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
